@@ -99,10 +99,13 @@ textarea {
    ========================================================================== */
 body{
   font-family: 'Assistant', sans-serif;
-  background: url('../img/alexia-vilar-home-bg.jpg') no-repeat center center fixed;
-  background-size: cover;
   color: #fefefe;
   font-weight: 200;
+}
+
+.home{
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 h1{
@@ -131,7 +134,7 @@ a:hover{
   transition: .5s ease;
 }
 
-#menu ul{
+.home #menu ul  {
   list-style-type: none;
   text-align: left;
   margin: 0 0 180px 0;
@@ -154,7 +157,93 @@ margin: 40px 0 40px 0;
   margin: 0 0 0 35px;
 }
 
+.mywork{
+    background-color: #000;
+}
 
+.mywork h3{
+  text-align: center;
+}
+
+.grid{
+  list-style-type: none;
+}
+
+.grid li{
+  display: inline-block;
+}
+
+.grid img{
+  margin:12px 30px 12px 30px;
+  padding:12px 30px 12px 30px;
+}
+
+.grid h3{
+  text-align: center;
+  font-weight: 300;
+}
+
+.aboutme {
+  background: url('../img/alexia-vilar-home-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.aboutme #menu ul  {
+  list-style-type: none;
+  text-align: left;
+  margin: 0 0 180px 0;
+  padding-inline-start: 0px;
+}
+
+.photography img{
+margin:  12px 30px 12px 30px;
+  padding:12px 30px 12px 30px;
+}
+
+.photography h3{
+  text-align: center;
+  font-weight: 300;
+}
+
+.photography{
+  background-color: #000;
+}
+
+.photography-analog {
+	background: #000;
+}
+
+.photography-analog img{
+  width: 100%;
+  max-width: 100%;
+  margin:  12px 30px 12px 30px;
+  padding:12px 30px 12px 30px; 
+} 
+
+
+.contact ul{
+  list-style-type: none;
+}
+
+.contact ul li{
+  display: inline-block;
+}
+
+.contacticons {
+  margin: 12px;
+  margin-right: 12px;
+  padding: 12px;
+  text-align: center;
+}
+
+.contacticons li{
+  margin: 12px;
+  padding:12px;
+}
+
+.photography-digital {
+  background: #000;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
